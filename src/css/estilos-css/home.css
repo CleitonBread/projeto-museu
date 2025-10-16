@@ -83,7 +83,79 @@
     background: url(../../images/imagens-home/exterior-museu.jpg) center center no-repeat;
 }
 
+/*Amostruario*/
 
+.conteudo-principal .amostruario{
+    display: flex;
+    flex-direction: row;
+}
 
+.conteudo-principal .amostruario .amostra{
+    display: flex;
+    align-items: center;
+    height: 45vh;
+    width: 25vw;
+    background-color: #220644;
+}
 
+.conteudo-principal .amostruario .amostra img{
+    height: 90%;
+    width: 90%;
+    ;
+}
 
+/*Roda-pé*/
+
+.roda-pe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    height: 40vh;
+    width: 100vw;
+}
+
+.roda-pe .logo{
+    font-weight: 700;
+    font-size: 30px;
+    transition: 0.4s ease-in-out;    
+}
+
+.roda-pe .logo:hover{
+    color: #460a8b;
+}
+
+.roda-pe nav .container-opcoes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 35vw;
+}
+
+.roda-pe nav .container-opcoes .opcao a{
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.roda-pe nav .container-opcoes .opcao a:hover{
+    color: #ffffff;
+    background-color: #460a8b;
+    border-radius: 25px;
+}
+
+.roda-pe .social a{
+    margin: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.roda-pe .social a:hover{
+    color: #460a8b;
+}
+
+.roda-pe .direitos{
+    margin-top: 10px;
+}
