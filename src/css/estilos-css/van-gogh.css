@@ -1,0 +1,178 @@
+.conteudo-principal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto";
+    height: 85vh;
+    width: 100vw;
+    background-color: #220644;
+}
+
+/*Nome do Pintor*/
+
+.conteudo-principal .nome-pintor{
+    position: absolute;
+    margin-top: 2%;
+    font-size: 40px;
+    font-weight: 700;
+    z-index: 10;
+    color: #ffffff;
+}
+
+/*Fazendo aparecer so a imagem desejada*/
+
+.conteudo-principal .imagem-painel{
+    display: none;
+}
+
+.imagem-painel.mostrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Colocando os backgrounds de cada obra de arte*/
+
+.imagem-painel.obra1{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%),url(../../images/imagens-van-gogh/background-noite-estrelada.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-painel.obra2{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%),url(../../images/imagens-van-gogh/background-os-girassois.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-painel.obra3{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%),url(../../images/imagens-van-gogh/background-quarto-em-arlesjpg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-painel.obra4{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%),url(../../images/imagens-van-gogh/background-os-comedores-de-batata.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-painel.obra5{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%),url(../../images/imagens-van-gogh/background-terraço-do-café-à-noite.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-painel.historia{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%),url(../../images/imagens-van-gogh/background-van-gogh.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Colocando as obras de arte*/
+
+.conteudo-principal .imagem-painel .obra-arte{
+    height: 40vh;
+    width: 20vw;
+    margin-left: 5%;
+    border: 3px solid black;
+}
+
+.conteudo-principal .imagem-painel .obra-arte img{
+    height: 100%;
+    width: 100%;
+}
+
+/*informações da arte*/
+
+.conteudo-principal .imagem-painel .informacoes-arte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 25%;
+    background-color: #ffffff;
+}
+
+.conteudo-principal .imagem-painel .biografia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    width: 30%;
+    margin-top: 3%;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.conteudo-principal .imagem-painel .informacoes-arte .titulo{
+    font-weight: 700;
+    margin: 5%;
+}
+
+.conteudo-principal .imagem-painel .biografia .titulo{
+    font-weight: 700;
+    margin: 5%;
+}
+
+.conteudo-principal .imagem-painel .informacoes-arte .paragrafo{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 5% 0 5%;
+}
+
+.conteudo-principal .imagem-painel .biografia .paragrafo{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 5% 0 5%;
+}
+
+/*Colocando as setas*/
+
+.conteudo-principal .seta{
+    background-image: url(../../images/imagens-van-gogh/seta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-indent: 100%;
+    overflow: hidden;
+}
+
+.conteudo-principal .seta.final-imagens{
+    opacity: 0.4;
+}
+
+.conteudo-principal .seta.btn-voltar{
+    top: 50%;
+    left: 20px;    
+    transform: rotate(180deg);
+}
+
+.conteudo-principal .seta.btn-avancar{
+    top: 50%;
+    right: 20px;    
+}
