@@ -1,0 +1,103 @@
+/*Conteudo principal*/
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+
+.conteudo-principal .apresentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%),url(../../images/imagens-sobre-museu/exterior-museu.jpg) center center no-repeat;
+    background-size: cover;
+    height: 75vh;
+    width: 100%;
+}
+
+.conteudo-principal .apresentacao h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.conteudo-principal .nossa-historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #220644;
+    height: 65vh;
+    width: 100%;
+}
+
+.conteudo-principal .nossa-historia h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #ffffff;
+}
+
+.conteudo-principal .nossa-historia .paragrafo{
+    font-weight: 500;
+    color: #ffffff;
+    height: 60%;
+    width: 50%;
+}
+
+/*Roda-pé*/
+
+.roda-pe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    height: 40vh;
+    width: 100%;
+}
+
+.roda-pe .logo{
+    font-weight: 700;
+    font-size: 30px;
+    transition: 0.4s ease-in-out;    
+}
+
+.roda-pe .logo:hover{
+    color: #460a8b;
+}
+
+.roda-pe nav .container-opcoes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 35vw;
+}
+
+.roda-pe nav .container-opcoes .opcao a{
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.roda-pe nav .container-opcoes .opcao a:hover{
+    color: #ffffff;
+    background-color: #460a8b;
+    border-radius: 25px;
+}
+
+.roda-pe .social a{
+    margin: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.roda-pe .social a:hover{
+    color: #460a8b;
+}
+
+.roda-pe .direitos{
+    margin-top: 10px;
+}

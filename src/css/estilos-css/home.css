@@ -4,8 +4,8 @@
 
 .conteudo-principal .apresentacao{
     height: 75vh;
-    width: 100vw;
-     background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%),url(../../images/imagens-home/interior-museu.avif) center center no-repeat;
+    width: 100%;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%),url(../../images/imagens-home/interior-museu.avif) center center no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -113,7 +113,7 @@
     align-items: center;
     font-family: "Roboto";
     height: 40vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .roda-pe .logo{
@@ -136,7 +136,7 @@
 
 .roda-pe nav .container-opcoes .opcao a{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 15px;
     padding: 10px 20px;
     transition: 0.4s ease-in-out;
 }
