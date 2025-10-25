@@ -1,0 +1,73 @@
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto";
+    height: 85vh;
+    width: 100%;
+}
+
+.conteudo-principal .titulo{
+    font-size: 30px;
+    margin: 1%;
+}
+
+.conteudo-principal .criador{
+    display: flex;
+    position: relative;
+    height: 30vh;
+    width: 30vw;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    background-color: #c6c0c6;
+}
+
+.conteudo-principal .criador .foto-perfil{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 50%;
+    right: 350px;
+}
+
+.conteudo-principal .criador .foto-perfil.cleiton{
+    background-image: url(../../images/imagens-criadores/foto-perfil-cleiton.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.conteudo-principal .criador .foto-perfil.vagner{
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.conteudo-principal .criador .foto-perfil.wellington{
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.conteudo-principal .criador .geral{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-principal .criador .geral .informacoes li{
+    margin-bottom: 2%;
+}
+
+.conteudo-principal .criador .geral .informacoes li strong{
+    font-weight: 700;
+}
+
+.conteudo-principal .criador .geral .social a:hover{
+    color: #460a8b;
+}
