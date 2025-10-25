@@ -1,0 +1,55 @@
+/*Roda-pé*/
+
+.roda-pe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    height: 40vh;
+    width: 100%;
+}
+
+.roda-pe .logo{
+    font-weight: 700;
+    font-size: 30px;
+    transition: 0.4s ease-in-out;    
+}
+
+.roda-pe .logo:hover{
+    color: #460a8b;
+}
+
+.roda-pe nav .container-opcoes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 35vw;
+}
+
+.roda-pe nav .container-opcoes .opcao a{
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.roda-pe nav .container-opcoes .opcao a:hover{
+    color: #ffffff;
+    background-color: #460a8b;
+    border-radius: 25px;
+}
+
+.roda-pe .social a{
+    margin: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.roda-pe .social a:hover{
+    color: #460a8b;
+}
+
+.roda-pe .direitos{
+    margin-top: 10px;
+}
