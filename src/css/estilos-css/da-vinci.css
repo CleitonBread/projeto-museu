@@ -1,0 +1,167 @@
+.conteudo-principal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:"Roboto" ;
+    height: 85vh; 
+    width: 100%;
+    background-color: #220644;
+}
+
+.conteudo-principal .nome-pintor{
+    position: absolute;
+    margin-top: 2%;
+    font-size: 40px;
+    font-weight: 700;
+    z-index: 10;
+    color: #fff;
+}
+
+.conteudo-principal .imagem-painel {
+    display: none;
+}
+
+.imagem-painel.mostrar {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-painel.obra1 {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(120deg, rgba(0,0,0,1) 10% , rgba(0,0,0,0.0592612448179273) 50%, rgba(0,0,0,1) 90%), url(../../images/imagens-da-vici/background-mona-lisa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-painel.obra2 {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(120deg, rgba(0,0,0,1) 10% , rgba(0,0,0,0.0592612448179273) 50%, rgba(0,0,0,1) 90%), url(../../images/imagens-da-vici/background-ultima-ceia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-painel.obra3 {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(120deg, rgba(0,0,0,1) 10% , rgba(0,0,0,0.0592612448179273) 50%, rgba(0,0,0,1) 90%), url(../../images/imagens-da-vici/background-homem-vitruviano.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-painel.obra4 {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(120deg, rgba(0,0,0,1) 10% , rgba(0,0,0,0.0592612448179273) 50%, rgba(0,0,0,1) 90%), url(../../images/imagens-da-vici/background-virgem-das-rochas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-painel.obra5 {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(120deg, rgba(0,0,0,1) 10% , rgba(0,0,0,0.0592612448179273) 50%, rgba(0,0,0,1) 90%), url(../../images/imagens-da-vici/background-batismo-de-cristo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-painel.historia {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(120deg, rgba(0,0,0,1) 10% , rgba(0,0,0,0.0592612448179273) 50%, rgba(0,0,0,1) 90%), url(../../images/imagens-da-vici/background-da-vinci.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.conteudo-principal .imagem-painel .obra-arte{
+    width: 20vh;
+    height: 40vh;
+    margin-left: 5%;
+    border: 3px solid black;
+}
+
+.conteudo-principal .imagem-painel .obra-arte img {
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo-principal .imagem-painel .informacoes-arte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 70%;
+    border-radius: 10px;
+    margin-left: 25%;
+    background-color: rgba(214, 218, 219, 0.6);
+}
+
+.conteudo-principal .imagem-painel .biografia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 70%;
+    border-radius: 10px;
+    margin-top: 3%;
+    background-color: rgba(214, 218, 219, 0.6);
+}
+
+.conteudo-principal .imagem-painel .informacoes-arte .titulo {
+    font-weight: 700;
+    margin: 5%;
+}
+
+.conteudo-principal .imagem-painel .informacoes-arte .paragrafo{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 5% 0 5%;
+}
+
+.conteudo-principal .imagem-painel .informacoes-arte .paragrafo{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 5% 0 5%;
+}
+
+.conteudo-principal .imagem-painel .biografia .paragrafo{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 5% 0 5%;
+}
+
+.conteudo-principal .seta {
+    background-image: url(../../images/imagens-da-vici/seta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-indent: 100%;
+    overflow: hidden;
+}
+
+.conteudo-principal .seta.final-imagens {
+    opacity: 0.4;
+}
+
+.conteudo-principal .seta.btn-voltar{
+    top: 50%;
+    left: 20px;
+    transform: rotate(180deg);
+}
+
+.conteudo-principal .seta.btn-avancar{
+    top: 50%;
+    right: 20px;   
+}
