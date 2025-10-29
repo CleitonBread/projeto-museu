@@ -39,14 +39,14 @@
 }
 
 .conteudo-principal .criador .foto-perfil.vagner{
-    background-image: url();
+    background-image: url(../../images/imagens-criadores/foto-perfil-vagner.jfif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .conteudo-principal .criador .foto-perfil.wellington{
-    background-image: url();
+    background-image: url(../../images/imagens-criadores/foto-perfil-wellington.jfif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
