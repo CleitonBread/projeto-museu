@@ -1,3 +1,206 @@
+/*Conteudo principal*/
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    width: 100%;
+}
+
+/*Carrossel de imagens*/
+
+.conteudo-principal .maiores-obras, .conteudo-principal .carrossel-conteporaneo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    background-color: #220644;
+}
+
+.conteudo-principal .maiores-obras h2, .conteudo-principal .carrossel-conteporaneo h2{
+    position: absolute;
+    margin-top: 2%;
+    font-size: 40px;
+    font-weight: 700;
+    z-index: 10;
+    color: #ffffff;
+}
+
+.conteudo-principal .imagem-painel{
+    display: none;
+}
+
+.imagem-painel.mostrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-painel{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%);
+}
+
+.maiores-obras .imagem-painel.obra1{
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%), url(../../images/imagens-mais-obras/background-o-grito.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.maiores-obras .imagem-painel.obra2{
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%), url(../../images/imagens-mais-obras/background-guernica.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.maiores-obras .imagem-painel.obra3{
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%), url(../../images/imagens-mais-obras/background-mona-lisa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.maiores-obras .imagem-painel.obra4{
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%), url(../../images/imagens-mais-obras/background-ultima-ceia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.maiores-obras .imagem-painel.obra5{
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%), url(../../images/imagens-mais-obras/background-noite-estrelada.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.conteudo-principal .imagem-painel .obra-arte{
+    height: 40vh;
+    width: 20vw;
+    margin-left: 5%;
+    border: 3px solid black;
+}
+
+.conteudo-principal .imagem-painel .obra-arte.grande{
+    width: 30vw;
+}
+
+.conteudo-principal .imagem-painel .obra-arte img{
+    height: 100%;
+    width: 100%;
+}
+
+.conteudo-principal .imagem-painel .informacoes-arte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 25%;
+    background-color: rgba(214, 218, 219, 0.6);
+}
+
+.conteudo-principal .imagem-painel .informacoes-arte .titulo{
+    font-weight: 700;
+    margin: 5%;
+}
+
+.conteudo-principal .imagem-painel .informacoes-arte .paragrafo{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 5% 0 5%;
+}
+
+.conteudo-principal .seta{
+    background-image: url(../../images/imagens-van-gogh/seta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-indent: 100%;
+    overflow: hidden;
+}
+
+.conteudo-principal .seta.final-imagens{
+    opacity: 0.4;
+}
+
+.conteudo-principal .seta.btn-voltar{
+    top: 50%;
+    left: 20px;    
+    transform: rotate(180deg);
+}
+
+.conteudo-principal .seta.btn-avancar{
+    top: 50%;
+    right: 20px;    
+}
+
+/*Amostra de obras Contemporâneas*/
+
+.conteudo-principal .obras-contemporaneas-notaveis{
+    display: flex;
+    flex-direction: row;
+}
+
+.conteudo-principal .obras-contemporaneas-notaveis .amostra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+    width: 25vw;
+    background-color: #220644;
+}
+
+.conteudo-principal .obras-contemporaneas-notaveis .amostra img{
+    height: 90%;
+    width: 90%;
+    ;
+}
+
+/*Caracteristicas das obras Contemporaneas*/
+
+.conteudo-principal .caracteristicas-obras-contemporaneas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #220644;
+    height: 65vh;
+    width: 100%;
+}
+
+.conteudo-principal .caracteristicas-obras-contemporaneas h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 2% 0 2% 0;
+    color: #ffffff;
+}
+
+.conteudo-principal .caracteristicas-obras-contemporaneas .paragrafo{
+    font-weight: 500;
+    color: #ffffff;
+    height: 60%;
+    width: 50%;
+}
+
+.conteudo-principal .caracteristicas-obras-contemporaneas .btn-saiba-mais{
+    margin: 2% 0 2% 0;
+    color: #ffffff;
+    transition: 0.4s ease-in-out;
+}
+
+.conteudo-principal .caracteristicas-obras-contemporaneas .btn-saiba-mais:hover{
+    color: #460a8b;
+}
+
 /*Roda-pé*/
 
 .roda-pe{

@@ -83,10 +83,14 @@
 }
 
 .conteudo-principal .imagem-painel .obra-arte{
-    width: 20vh;
+    width: 20vw;
     height: 40vh;
     margin-left: 5%;
     border: 3px solid black;
+}
+
+.conteudo-principal .imagem-painel .obra-arte.ultima-ceia{
+    width: 30vw;
 }
 
 .conteudo-principal .imagem-painel .obra-arte img {
