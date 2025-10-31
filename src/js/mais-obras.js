@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // indice local do carrossel
     let imagemIndice = 0;
 
-    // funções (mesma lógica que tu usou)
+    // funções 
     function esconderImagens(){
       imagensPainel.forEach(imagem =>{
         imagem.classList.remove("mostrar");
