@@ -157,6 +157,7 @@
 
 .conteudo-principal .seta.final-imagens {
     opacity: 0.4;
+    pointer-events: none;
 }
 
 .conteudo-principal .seta.btn-voltar{
